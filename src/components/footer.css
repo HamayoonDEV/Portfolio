@@ -1,0 +1,143 @@
+.footer{
+    width: 100%;
+    padding-top: 3rem;
+    margin-bottom: 0;
+    background-color: rgb(36, 35, 35);
+}
+.footer-container{
+    max-width: 1140;
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 80px;
+    padding-bottom: 1rem;
+}
+/* LEFT SIDE OF FOOTER*/
+.left{
+    margin-top: 1.5rem;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+.location{
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+.location p{
+    line-height: 30px;
+}
+.location .home-icon{
+    margin-right: 0.5rem;
+}
+
+.phone .phone-icon{
+    margin-right: 0.5rem;
+}
+.phone p{
+    margin-left: 1.7rem;
+}
+.email{
+    margin-top: 0.6rem;
+}
+.email .email-icon{
+    margin-right: 0.5rem;
+}
+/* END LEFT SIDE FOOTER */
+
+
+/* RIGHT SIDE OF FOOTER */
+.right{
+    margin-top:1.5rem;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.social-icons{
+    margin-bottom: 1rem;
+}
+h4{
+    font-size: 1.2rem;
+}
+.facebook-icon{
+    margin: 0 2rem;
+}
+.linkedin-icon{
+    margin: 0 2rem;
+}
+
+.skype-icon{
+    margin: 0 2rem;
+}
+.instagram-icon{
+    margin: 0 2rem;
+}
+.github-icon{
+    margin: 0 2rem;
+}
+.twitter-icon{
+    margin: 0 2rem;
+}
+
+/* END OF RIGHT SIDE FOOTER */
+
+
+/* COPYRIGHT SECTION OF FOOTER */
+.copyright{
+    margin-top:1.5rem;
+    padding-bottom: 10rem;
+}
+.copyright h1{
+    width: 220px;
+    height: 70px;
+    padding-left: 0.8rem;
+    padding-top: 1rem;
+    border-radius: 50%;
+    box-shadow: 1px 2px white;
+}
+.copyright .copyright-tag{
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+}
+.copyright-tag span{
+    font-size: 12px;
+}
+.copyright-tag p {
+    font-size: 12px;
+}
+
+/* END OF COPYRIGHT SECTION */
+
+/* MOBILE FOOTER */
+
+@media screen and (max-width:650px) {
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+    .copyright .copyright-tag{
+        padding: 0 0;
+    }
+    .copyright-tag span{
+        font-size: 12px;
+    }
+    .copyright-tag p{
+        font-size: 12px;
+    }
+    .copyright{
+        margin-left: 6rem;
+    }
+    .copyright h1{
+        font-size: 20px;
+        margin-bottom: 0.5rem;
+        height: 40px;
+        width: 124px;
+        padding: 0.3rem 0;    
+   }
+   .footer-container{
+    grid-gap:5px
+   }
+    }

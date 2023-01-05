@@ -1,0 +1,38 @@
+label{
+    color: white;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+form input{
+    width: 40rem;
+    height: 2rem;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    font-size: 1.2rem;
+}
+form textarea{
+    width: 40rem;
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+form button{
+    color: black;
+    margin: 1rem 0;
+
+}
+@media screen and (max-width:650px) {
+    form input{
+        width: 20rem;
+    }
+    form textarea{
+        width: 20rem;
+    }
+}

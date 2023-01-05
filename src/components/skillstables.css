@@ -1,0 +1,13 @@
+table{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-spacing: 6rem;
+}
+
+table td{
+    color: white;
+    font-size: 3rem;
+     
+}
+
